@@ -1,7 +1,5 @@
 name = "jads"
-account_id = "6a041dfe24d207d6638700bb76b02118"
+type = "javascript"
 
- 
-
-[build]
-pages_build_output_dir = "./dist"
+[env.production]
+pages_build_output_dir = "build"
