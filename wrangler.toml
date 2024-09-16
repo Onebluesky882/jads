@@ -1,5 +1,0 @@
-name = "jads"
-type = "javascript"
-
-[env.production]
-pages_build_output_dir = "build"
