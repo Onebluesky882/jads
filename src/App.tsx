@@ -8,12 +8,18 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-      </Routes>
+      <GlobalBodyContainer>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+        </Routes>
+      </GlobalBodyContainer>
       <Footer />
     </BrowserRouter>
   );
 }
+
+export const GlobalBodyContainer = ({ children }: React.PropsWithChildren) => {
+  return <div style={{ margin: "auto " }}>{children}</div>;
+};
 
 export default App;
