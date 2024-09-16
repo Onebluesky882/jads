@@ -13,6 +13,7 @@ const Homepage = () => {
     <div>
       <h1>hello</h1>
       <p>dfwfwf</p>
+      <p>dfwfw</p>
     </div>
   );
 };
