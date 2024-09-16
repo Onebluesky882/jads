@@ -11,6 +11,9 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
@@ -24,4 +27,8 @@
   button {
     background-color: #f9f9f9;
   }
+}
+
+p {
+  font-size: xx-large;
 }

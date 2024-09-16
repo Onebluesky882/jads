@@ -10,10 +10,33 @@ const Homepage = () => {
     showTime();
   });
   return (
-    <div>
-      <h1>hello</h1>
-      <p>dfwfwf</p>
-      <p>dfwfw</p>
+    <div
+      style={{
+        margin: "auto ",
+        display: "flex",
+        width: "500px",
+        padding: "30px",
+      }}
+    >
+      {" "}
+      <div style={{ display: "flex" }}> </div>
+      <ol
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "start",
+          alignItems: "start",
+        }}
+      >
+        <li>
+          <p>Easy to used</p>
+        </li>
+        <li>
+          <p>Faster load pages</p>
+        </li>
+        <li>High Performance</li>
+        <li>SEO Friendly</li>
+      </ol>
     </div>
   );
 };
